@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daddy Crush</title>
+    <link rel="stylesheet" href="candy.css">
+</head>
+<body>
+    <div id="game-ui">
+        <h1 id="status-text">Score: <span id="score">0</span></h1>
+        <h3>Best Time: <span id="best-time">--</span>s</h3>
+    </div>
+
+    <div class="main-layout">
+        <div id="board"></div>
+
+        <div id="image-reveal-container">
+            <div id="target-image"></div>
+            <div id="win-message"></div>
+        </div>
+    </div>
+
+    <div id="ui-overlay">
+        <button id="reset-btn" onclick="window.location.reload()">Play Next Level</button>
+        <button id="fullscreen-btn" onclick="openFullscreen()">View Full Screen</button>
+    </div>
+
+    <script src="candy.js"></script>
+</body>
+</html>
