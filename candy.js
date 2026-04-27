@@ -19,7 +19,7 @@ window.onload = function() {
 
 function initGameSession() {
     // 1. Setup Random Image
-    let randomNum = Math.floor(Math.random() * 102) + 1;
+    let randomNum = Math.floor(Math.random() * 160) + 1;
     let imgName = randomNum.toString().padStart(2, '0');
     let imgUrl = `https://md19811.github.io/Manillen/randomM/${imgName}.jpg`;
 
